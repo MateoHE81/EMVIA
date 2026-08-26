@@ -1,0 +1,19 @@
+{
+  "name": "stadium-emotion-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Low-latency WebSocket relay between the stadium iOS gateway and home viewers.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "8.21.1"
+  }
+}
